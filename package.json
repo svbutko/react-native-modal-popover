@@ -21,7 +21,7 @@
   "homepage": "https://github.com/doomsower/react-native-modal-popover#readme",
   "scripts": {
     "compile": "rm -rf ./build/* && tsc",
-    "prepublish": "npm run compile",
+    "prepublishOnly": "npm run compile",
     "tsc:watch": "npm run tsc --watch"
   },
   "devDependencies": {
